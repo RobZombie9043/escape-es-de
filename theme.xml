@@ -1,0 +1,495 @@
+<!--
+theme name: 	Escape
+designed by:   	Rob Zombie
+license:      	creative commons CC-BY-NC-SA
+-->
+
+<theme>
+
+	<include>./_inc/systems/metadata-global/_default.xml</include>
+	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+	<include>./colors.xml</include>
+
+	<variables>
+		<spacerImage>./_inc/images/space.png</spacerImage>
+		<verlagLight>./_inc/fonts/Verlag-Light.otf</verlagLight>
+		<verlagBook>./_inc/fonts/Verlag-Book.otf</verlagBook>
+		<verlagBold>./_inc/fonts/Verlag Bold.otf</verlagBold>
+		<verlagBlack>./_inc/fonts/Verlag-Black.otf</verlagBlack>
+	</variables>
+	
+	<!--
+	///
+	All Views
+	///
+	-->
+	<view name="system,gamelist">
+		<helpsystem name="help">
+			<origin>0.5 0</origin>
+			<pos>0.5 0.925</pos>
+			<fontSize>0.026</fontSize><!-- 28 -->
+			<fontSizeDimmed>0.026</fontSizeDimmed><!-- 28 -->
+			<fontPath>${verlagBook}</fontPath>
+			<letterCase>capitalize</letterCase>
+			<iconColor>ffffff</iconColor>
+			<textColor>ffffff</textColor>
+			<originDimmed>0.5 0</originDimmed>
+			<posDimmed>0.5 0.94</posDimmed>
+			<textColorDimmed>cccccc</textColorDimmed>
+			<iconColorDimmed>cccccc</iconColorDimmed>
+			<opacityDimmed>1.0</opacityDimmed>
+		</helpsystem>
+	</view>
+	<view name="system">
+		<image name="system-background">
+			<stationary>always</stationary>
+		</image>
+	</view>
+	<view name="gamelist">
+		<image name="system-background">
+			<renderDuringTransitions>false</renderDuringTransitions>
+		</image>
+	</view>
+
+	<!--
+	///
+	System View
+	///
+	-->
+	<view name="system">
+		<image name="system-background">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<cropSize>1 1</cropSize>
+			<zIndex>1</zIndex>
+		</image>
+		<carousel name="system-carousel">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.2</pos>
+			<size>1 1</size>
+			<itemSize>0.2 0.1</itemSize>
+			<itemScale>1.4</itemScale>
+			<staticImage>./_inc/systems/logos/${system.theme}.svg</staticImage>
+			<imageColor>ffffff</imageColor>
+			<type>horizontal</type>
+			<maxItemCount>3</maxItemCount>
+			<itemDiagonalOffset>0.0</itemDiagonalOffset>
+			<selectedItemMargins>0 0</selectedItemMargins>
+			<fastScrolling>true</fastScrolling>
+			<color>00000000</color>
+			<unfocusedItemOpacity>0.5</unfocusedItemOpacity>
+			<unfocusedItemDimming>1</unfocusedItemDimming>
+			<zIndex>2</zIndex>
+		</carousel>
+		<text name="system-game-count">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.31</pos>
+			<fontSize>${systemGameCountFontSize}</fontSize> 
+			<fontPath>${verlagBold}</fontPath>
+			<systemdata>gamecount</systemdata>
+			<color>ffffff</color>
+		</text>
+	</view>
+	
+	<variant name="watchtower_distant">
+        <view name="system">
+            <image name="system-background">
+				<path>./_inc/images/Watchtower Distant/${backgroundPath}</path>
+			</image>
+        </view>
+    </variant>
+	<variant name="lakeside">
+        <view name="system">
+            <image name="system-background">
+				<path>./_inc/images/Lake/${backgroundPath}</path>
+			</image>
+        </view>
+    </variant>
+	<variant name="watchtower_closeup">
+        <view name="system">
+            <image name="system-background">
+				<path>./_inc/images/Watchtower Close-up/${backgroundPath}</path>
+			</image>
+        </view>
+    </variant>
+	
+	<!--
+	///
+	Gamelist View: Textlist
+	///
+	-->
+	<view name="gamelist">
+		<image name="gamelist-background">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<cropSize>1 1</cropSize>
+			<zIndex>2</zIndex>
+		</image>
+		<video name="gamelist-background-animated">
+            <origin>0 0</origin>
+			<pos>0 0</pos>
+			<cropSize>1 1</cropSize>
+			<fadeInTime>0</fadeInTime>
+			<zIndex>3</zIndex>
+        </video>
+		<image name ="textlist-system-logo">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.0625</pos>
+			<size>0 0.06</size>
+			<path>./_inc/systems/logos/${system.theme}.svg</path>
+		</image>
+		<image name ="textlist-background">
+			<origin>0.5 0.5</origin>
+			<pos>0.15 0.5</pos>
+			<size>0.25 0.75</size>
+			<path>${spacerImage}</path>
+			<tile>true</tile>
+			<color>4040404D</color>
+			<cornerRadius>0.01</cornerRadius>
+			<zIndex>4</zIndex>
+		</image>
+		<textlist name="game-textlist">
+			<origin>0.5 0.5</origin>
+			<pos>0.15 0.5</pos>
+			<size>0.2 0.70</size> 
+			<fontPath>${verlagBook}</fontPath>
+			<fontSize>${gamelistTextlistFontSize}</fontSize>
+			<lineSpacing>1.75</lineSpacing>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>ffffff</secondaryColor>
+			<selectedColor>ffffff</selectedColor>
+			<selectedSecondaryColor>ffffff</selectedSecondaryColor>
+			<selectedBackgroundColor>${textlistselectedBackgroundColor}</selectedBackgroundColor>
+			<selectedSecondaryBackgroundColor>${textlistselectedBackgroundColor}</selectedSecondaryBackgroundColor>
+			<selectedBackgroundMargins>0.013 0.013</selectedBackgroundMargins>
+			<selectedBackgroundCornerRadius>0</selectedBackgroundCornerRadius>
+			<selectorColor>${textlistselectedBackgroundColor}</selectorColor>
+			<textHorizontalScrolling>true</textHorizontalScrolling>
+		</textlist>
+		<image name ="textlist-metadata-background">
+			<origin>0.5 0.5</origin>
+			<pos>0.45 0.5</pos>
+			<size>0.3 0.75</size>
+			<path>${spacerImage}</path>
+			<tile>true</tile>
+			<color>4040404D</color>
+			<cornerRadius>0.01</cornerRadius>
+			<zIndex>4</zIndex>
+		</image>
+		<image name ="textlist-game-logo">
+			<origin>0.5 0.5</origin>
+			<pos>0.45 0.1875</pos>
+			<maxSize>0.25 0.1</maxSize>
+			<imageType>marquee</imageType>
+			<zIndex>5</zIndex>
+		</image>
+		<badges name="textlist-badges">
+			<origin>0.5 0.5</origin>
+			<pos>0.45 0.27</pos>
+			<size>0.25 0.026</size>
+			<horizontalAlignment>center</horizontalAlignment>
+			<itemMargin>0.002 -1</itemMargin>
+			<lines>1</lines>
+			<itemsPerLine>9</itemsPerLine>
+			<slots>all</slots>
+			<customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
+			<customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
+			<customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
+			<customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
+			<customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
+			<customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
+			<customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
+			<customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
+			<customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
+			<badgeIconColor>ffffff</badgeIconColor>
+			<controllerSize>0.8</controllerSize>
+			<folderLinkSize>0.8</folderLinkSize>
+		</badges>
+		<text name="textlist-releasedate-label">
+			<origin>1 0.5</origin>
+			<pos>0.44 0.3175</pos>
+			<size>0.115 0.09</size>
+			<horizontalAlignment>left</horizontalAlignment>
+			<text>Release Date:</text>
+			<metadataElement>true</metadataElement>
+			<fontPath>${verlagBook}</fontPath>
+			<fontSize>${gamelistMetadataFontSize}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<color>ffffff</color>
+		</text>
+		<datetime name="textlist-releasedate-data">
+			<origin>0 0.5</origin>
+			<pos>0.44 0.3175</pos>
+			<size>0.135 0.09</size>
+			<metadata>releasedate</metadata>
+			<defaultValue>-</defaultValue>
+			<fontPath>${verlagLight}</fontPath>
+			<fontSize>${gamelistMetadataFontSize}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<color>ffffff</color>
+		</datetime>
+		<text name="textlist-developer-label">
+			<origin>1 0.5</origin>
+			<pos>0.44 0.3925</pos>
+			<size>0.115 0.09</size>
+			<horizontalAlignment>left</horizontalAlignment>
+			<text>Developer:</text>
+			<metadataElement>true</metadataElement>
+			<fontPath>${verlagBook}</fontPath>
+			<fontSize>${gamelistMetadataFontSize}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<color>ffffff</color>
+		</text>
+		<text name="textlist-developer-data">
+			<origin>0 0.5</origin>
+			<pos>0.44 0.3925</pos>
+			<size>0.135 0.09</size>
+			<metadata>developer</metadata>
+			<defaultValue>-</defaultValue>
+			<fontPath>${verlagLight}</fontPath>
+			<fontSize>${gamelistMetadataFontSize}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<color>ffffff</color>
+		</text>
+		<text name="textlist-publisher-label">
+			<origin>1 0.5</origin>
+			<pos>0.44 0.4675</pos>
+			<size>0.115 0.09</size>
+			<horizontalAlignment>left</horizontalAlignment>
+			<text>Publisher:</text>
+			<metadataElement>true</metadataElement>
+			<fontPath>${verlagBook}</fontPath>
+			<fontSize>${gamelistMetadataFontSize}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<color>ffffff</color>
+		</text>
+		<text name="textlist-publisher-data">
+			<origin>0 0.5</origin>
+			<pos>0.44 0.4675</pos>
+			<size>0.135 0.09</size>
+			<metadata>publisher</metadata>
+			<defaultValue>-</defaultValue>
+			<fontPath>${verlagLight}</fontPath>
+			<fontSize>${gamelistMetadataFontSize}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<color>ffffff</color>
+		</text>
+		<text name="textlist-genre-label">
+			<origin>1 0.5</origin>
+			<pos>0.44 0.5425</pos>
+			<size>0.115 0.09</size>
+			<horizontalAlignment>left</horizontalAlignment>
+			<text>Genre:</text>
+			<metadataElement>true</metadataElement>
+			<fontPath>${verlagBook}</fontPath>
+			<fontSize>${gamelistMetadataFontSize}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<color>ffffff</color>
+		</text>
+		<text name="textlist-genre-data">
+			<origin>0 0.5</origin>
+			<pos>0.44 0.5425</pos>
+			<size>0.135 0.09</size>
+			<metadata>genre</metadata>
+			<defaultValue>-</defaultValue>
+			<fontPath>${verlagLight}</fontPath>
+			<fontSize>${gamelistMetadataFontSize}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<color>ffffff</color>
+		</text>
+		<text name="textlist-players-label">
+			<origin>1 0.5</origin>
+			<pos>0.44 0.6175</pos>
+			<size>0.115 0.09</size>
+			<horizontalAlignment>left</horizontalAlignment>
+			<text>Players:</text>
+			<metadataElement>true</metadataElement>
+			<fontPath>${verlagBook}</fontPath>
+			<fontSize>${gamelistMetadataFontSize}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<color>ffffff</color>
+		</text>
+		<text name="textlist-players-data">
+			<origin>0 0.5</origin>
+			<pos>0.44 0.6175</pos>
+			<size>0.135 0.09</size>
+			<metadata>players</metadata>
+			<defaultValue>-</defaultValue>
+			<fontPath>${verlagLight}</fontPath>
+			<fontSize>${gamelistMetadataFontSize}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<color>ffffff</color>
+		</text>
+		<text name="textlist-lastplayed-label">
+			<origin>1 0.5</origin>
+			<pos>0.44 0.6925</pos>
+			<size>0.115 0.09</size>
+			<horizontalAlignment>left</horizontalAlignment>
+			<text>Last Played:</text>
+			<metadataElement>true</metadataElement>
+			<fontPath>${verlagBook}</fontPath>
+			<fontSize>${gamelistMetadataFontSize}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<color>ffffff</color>
+		</text>
+		<datetime name="textlist-lastplayed-data">
+			<origin>0 0.5</origin>
+			<pos>0.44 0.6925</pos>
+			<size>0.135 0.09</size>
+			<metadata>lastplayed</metadata>
+			<fontPath>${verlagLight}</fontPath>
+			<fontSize>${gamelistMetadataFontSize}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<color>ffffff</color>
+		</datetime>
+		<text name="textlist-playcount-label">
+			<origin>1 0.5</origin>
+			<pos>0.44 0.7675</pos>
+			<size>0.115 0.09</size>
+			<horizontalAlignment>left</horizontalAlignment>
+			<text>Times Played:</text>
+			<metadataElement>true</metadataElement>
+			<fontPath>${verlagBook}</fontPath>
+			<fontSize>${gamelistMetadataFontSize}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<color>ffffff</color>
+		</text>
+		<text name="textlist-playcount-data">
+			<origin>0 0.5</origin>
+			<pos>0.44 0.7675</pos>
+			<size>0.135 0.09</size>
+			<metadata>playcount</metadata>
+			<fontPath>${verlagLight}</fontPath>
+			<fontSize>${gamelistMetadataFontSize}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<color>ffffff</color>
+		</text>
+		<rating name="textlist-rating">
+			<origin>0.5 0.5</origin>
+			<pos>0.45 0.8325</pos>
+			<size>0.25 0.05</size>
+			<filledPath>./_inc/images/icon-star-filled.svg</filledPath>
+			<unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
+			<overlay>false</overlay>
+			<color>ffffff</color>
+		</rating>
+		
+		<image name ="textlist-media-background">
+			<origin>0.5 0.5</origin>
+			<pos>0.8 0.5</pos>
+			<size>0.35 0.75</size>
+			<path>${spacerImage}</path>
+			<tile>true</tile>
+			<color>4040404D</color>
+			<cornerRadius>0.01</cornerRadius>
+			<zIndex>4</zIndex>
+		</image>
+		<text name="textlist-description">
+			<origin>0.5 0.5</origin>
+			<pos>0.8 0.3</pos>
+			<size>0.3 0.3</size>
+			<metadata>description</metadata>
+			<fontPath>${verlagLight}</fontPath>
+			<fontSize>${gamelistDescriptionFontSize}</fontSize>
+			<lineSpacing>1.2</lineSpacing>
+			<verticalAlignment>bottom</verticalAlignment>
+			<color>ffffff</color>
+		</text>
+		<video name="textlist-video">
+			<origin>0.5 0.5</origin>
+			<pos>0.8 0.6625</pos>
+			<maxSize>0.3 0.4</maxSize>
+			<videoCornerRadius>0.0075</videoCornerRadius>
+			<imageCornerRadius>0.0</imageCornerRadius>
+			<imageType>miximage</imageType>
+			<delay>3</delay>
+			<pillarboxes>false</pillarboxes>
+			<zIndex>5</zIndex>
+		</video>
+	</view>
+	<variant name="watchtower_distant">
+        <view name="gamelist">
+            <image name="gamelist-background">
+				<path>./_inc/images/Watchtower Distant/${videoBackgroundImagePath}</path>
+			</image>
+			<video name="gamelist-background-animated">
+				<path>./_inc/images/Watchtower Distant/${videoBackgroundPath}</path>
+			</video>
+        </view>
+    </variant>
+	<variant name="lakeside">
+        <view name="gamelist">
+            <image name="gamelist-background">
+				<path>./_inc/images/Lake/${videoBackgroundImagePath}</path>
+			</image>
+			<video name="gamelist-background-animated">
+				<path>./_inc/images/Lake/${videoBackgroundPath}</path>
+			</video>
+        </view>
+    </variant>
+	<variant name="watchtower_closeup">
+        <view name="gamelist">
+            <image name="gamelist-background">
+				<path>./_inc/images/Watchtower Close-up/${videoBackgroundImagePath}</path>
+			</image>
+			<video name="gamelist-background-animated">
+				<path>./_inc/images/Watchtower Close-up/${videoBackgroundPath}</path>
+			</video>
+        </view>
+    </variant>
+
+	<fontSize name="small">
+		<variables>
+			<systemGameCountFontSize>0.030</systemGameCountFontSize>
+			<gamelistTextlistFontSize>0.026</gamelistTextlistFontSize>
+			<gamelistMetadataFontSize>0.026</gamelistMetadataFontSize>
+			<gamelistDescriptionFontSize>0.026</gamelistDescriptionFontSize>
+		</variables>
+	</fontSize>
+	<fontSize name="medium">
+		<variables>
+			<systemGameCountFontSize>0.032</systemGameCountFontSize>
+			<gamelistTextlistFontSize>0.030</gamelistTextlistFontSize>
+			<gamelistMetadataFontSize>0.030</gamelistMetadataFontSize>
+			<gamelistDescriptionFontSize>0.030</gamelistDescriptionFontSize>
+		</variables>
+	</fontSize>
+	<fontSize name="large">
+		<variables>
+			<systemGameCountFontSize>0.034</systemGameCountFontSize>
+			<gamelistTextlistFontSize>0.034</gamelistTextlistFontSize>
+			<gamelistMetadataFontSize>0.034</gamelistMetadataFontSize>
+			<gamelistDescriptionFontSize>0.034</gamelistDescriptionFontSize>
+		</variables>
+	</fontSize>
+	
+	<!--
+	///
+	Aspect Ratios
+	///
+	-->
+	<aspectRatio name="1:1">
+		<include>./aspect-ratio-1-1.xml</include>
+	</aspectRatio>
+	<aspectRatio name="5:4">
+		<include>./aspect-ratio-5-4.xml</include>
+	</aspectRatio>
+	<aspectRatio name="4:3">
+		<include>./aspect-ratio-4-3.xml</include>
+	</aspectRatio>
+	<aspectRatio name="3:2">
+		<include>./aspect-ratio-3-2.xml</include>
+	</aspectRatio>
+	<aspectRatio name="16:10">
+		<include>./aspect-ratio-16-10.xml</include>
+	</aspectRatio>
+	<aspectRatio name="16:9">
+		<include>./aspect-ratio-16-9.xml</include>
+	</aspectRatio>
+	<aspectRatio name="19.5:9">
+		<include>./aspect-ratio-19_5-9.xml</include>
+	</aspectRatio>
+	<aspectRatio name="21:9">
+		<include>./aspect-ratio-21-9.xml</include>
+	</aspectRatio>
+</theme>

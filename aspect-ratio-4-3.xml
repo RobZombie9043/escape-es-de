@@ -1,0 +1,65 @@
+<!-- 
+4:3 aspect ratio
+-->
+<theme>
+
+	<view name="gamelist">
+		<text name="textlist-releasedate-label">
+			<pos>0.44 0.3175</pos>
+			<size>0.115 0.09</size>
+		</text>
+		<datetime name="textlist-releasedate-data">
+			<pos>0.44 0.3175</pos>
+			<size>0.135 0.09</size>
+		</datetime>
+		<text name="textlist-developer-label">
+			<pos>0.44 0.3925</pos>
+			<size>0.115 0.09</size>
+		</text>
+		<text name="textlist-developer-data">
+			<pos>0.44 0.3925</pos>
+			<size>0.135 0.09</size>
+		</text>
+		<text name="textlist-publisher-label">
+			<pos>0.44 0.4675</pos>
+			<size>0.115 0.09</size>
+		</text>
+		<text name="textlist-publisher-data">
+			<pos>0.44 0.4675</pos>
+			<size>0.135 0.09</size>
+		</text>
+		<text name="textlist-genre-label">
+			<pos>0.44 0.5425</pos>
+			<size>0.115 0.09</size>
+		</text>
+		<text name="textlist-genre-data">
+			<pos>0.44 0.5425</pos>
+			<size>0.135 0.09</size>
+		</text>
+		<text name="textlist-players-label">
+			<pos>0.44 0.6175</pos>
+			<size>0.115 0.09</size>
+		</text>
+		<text name="textlist-players-data">
+			<pos>0.44 0.6175</pos>
+			<size>0.135 0.09</size>
+		</text>
+		<text name="textlist-lastplayed-label">
+			<pos>0.44 0.6925</pos>
+			<size>0.115 0.09</size>
+		</text>
+		<datetime name="textlist-lastplayed-data">
+			<pos>0.44 0.6925</pos>
+			<size>0.135 0.09</size>
+		</datetime>
+		<text name="textlist-playcount-label">
+			<pos>0.44 0.7675</pos>
+			<size>0.115 0.09</size>
+		</text>
+		<text name="textlist-playcount-data">
+			<pos>0.44 0.7675</pos>
+			<size>0.135 0.09</size>
+		</text>
+	</view>
+
+</theme>

@@ -1,0 +1,61 @@
+<theme>
+	<!--
+	///
+	Color Schemes
+	///
+	-->
+	<colorScheme name="0_night,1_dawn,2_sunrise,3_early_morning,4_day,5_golden_hour,6_sunset,7_dusk">
+		<variables>
+			<videoBackgroundImagePath>background.webp</videoBackgroundImagePath>
+			<videoBackgroundPath>animated.mp4</videoBackgroundPath>
+		</variables>
+	</colorScheme>
+	<colorScheme name="0_night">
+        <variables>
+			<backgroundPath>0_night.webp</backgroundPath>
+			<textlistselectedBackgroundColor>04101c</textlistselectedBackgroundColor>
+		</variables>
+    </colorScheme>
+	<colorScheme name="1_dawn">
+        <variables>
+			<backgroundPath>1_dawn.webp</backgroundPath>
+			<textlistselectedBackgroundColor>223c39</textlistselectedBackgroundColor>
+		</variables>
+    </colorScheme>
+	<colorScheme name="2_sunrise">
+        <variables>
+			<backgroundPath>2_sunrise.webp</backgroundPath>
+			<textlistselectedBackgroundColor>cc9f4c</textlistselectedBackgroundColor>
+		</variables>
+    </colorScheme>
+	<colorScheme name="3_early_morning">
+        <variables>
+			<backgroundPath>3_early_morning.webp</backgroundPath>
+			<textlistselectedBackgroundColor>d0dea3</textlistselectedBackgroundColor>
+		</variables>
+    </colorScheme>
+	<colorScheme name="4_day">
+        <variables>
+			<backgroundPath>4_day.webp</backgroundPath>
+			<textlistselectedBackgroundColor>9bd5e9</textlistselectedBackgroundColor>
+		</variables>
+    </colorScheme>
+	<colorScheme name="5_golden_hour">
+        <variables>
+			<backgroundPath>5_golden_hour.webp</backgroundPath>
+			<textlistselectedBackgroundColor>f7d05b</textlistselectedBackgroundColor>
+		</variables>
+    </colorScheme>
+	<colorScheme name="6_sunset">
+        <variables>
+			<backgroundPath>6_sunset.webp</backgroundPath>
+			<textlistselectedBackgroundColor>df8048</textlistselectedBackgroundColor>
+		</variables>
+    </colorScheme>
+	<colorScheme name="7_dusk">
+        <variables>
+			<backgroundPath>7_dusk.webp</backgroundPath>
+			<textlistselectedBackgroundColor>223138</textlistselectedBackgroundColor>
+		</variables>
+    </colorScheme>
+</theme>

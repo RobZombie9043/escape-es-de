@@ -1,0 +1,99 @@
+<themeCapabilities>
+   
+	<themeName>Escape</themeName>
+   
+	<!--
+	///
+	Aspect Ratios
+	///
+	-->
+	<aspectRatio>1:1</aspectRatio>
+	<aspectRatio>5:4</aspectRatio>
+	<aspectRatio>4:3</aspectRatio>
+	<aspectRatio>3:2</aspectRatio>
+	<aspectRatio>16:10</aspectRatio>
+	<aspectRatio>16:9</aspectRatio>
+	<aspectRatio>19.5:9</aspectRatio>
+	<aspectRatio>21:9</aspectRatio>
+	<!--
+	///
+	Font Size
+	///
+	-->
+	<fontSize>small</fontSize>
+	<fontSize>medium</fontSize>
+	<fontSize>large</fontSize>
+
+	<!--
+	///
+	Color Schemes
+	///
+	-->
+	<colorScheme name="0_night">
+        <label>0 - Night</label>
+    </colorScheme>
+	<colorScheme name="1_dawn">
+        <label>1 - Dawn</label>
+    </colorScheme>
+	<colorScheme name="2_sunrise">
+        <label>2 - Sunrise</label>
+    </colorScheme>
+	<colorScheme name="3_early_morning">
+        <label>3 - Early Morning</label>
+    </colorScheme>
+	<colorScheme name="4_day">
+        <label>4 - Day</label>
+    </colorScheme>
+	<colorScheme name="5_golden_hour">
+        <label>5 - Golden Hour</label>
+    </colorScheme>
+	<colorScheme name="6_sunset">
+        <label>6 - Sunset</label>
+    </colorScheme>
+	<colorScheme name="7_dusk">
+        <label>7 - Dusk</label>
+    </colorScheme>
+
+	<!--
+	-->
+	
+	<!--
+	///
+	Transitions
+	///
+	-->
+	<transitions name="transitions">
+		<label>transitions</label>
+		<selectable>false</selectable>
+		<systemToSystem>instant</systemToSystem>
+		<systemToGamelist>instant</systemToGamelist>
+		<gamelistToGamelist>instant</gamelistToGamelist>
+		<gamelistToSystem>instant</gamelistToSystem>
+		<startupToSystem>fade</startupToSystem>
+		<startupToGamelist>fade</startupToGamelist>
+	</transitions>
+	<suppressTransitionProfiles>
+		<entry>builtin-instant</entry>
+		<entry>builtin-slide</entry>
+		<entry>builtin-fade</entry>
+	</suppressTransitionProfiles>
+   
+	<!--
+	///
+	Variants
+	///
+	-->
+	<variant name="watchtower_distant">
+		<label>Watchtower Distant</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="lakeside">
+		<label>Lakeside</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="watchtower_closeup">
+		<label>Watchtower Close-Up</label>
+		<selectable>true</selectable>
+	</variant>
+	
+</themeCapabilities>

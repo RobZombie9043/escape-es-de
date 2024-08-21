@@ -1,0 +1,97 @@
+<!-- 
+1:1 aspect ratio
+-->
+<theme>
+
+	<!--
+	///
+	Gamelist View: Textlist
+	///
+	-->
+	<view name="gamelist">
+		<image name ="textlist-background">
+			<pos>0.22 0.5</pos>
+			<size>0.35 0.75</size>
+		</image>
+		<textlist name="game-textlist">
+			<pos>0.22 0.5</pos>
+			<size>0.3 0.70</size> 
+		</textlist>
+		<image name ="textlist-metadata-background">
+			<pos>0.7 0.5</pos>
+			<size>0.52 0.75</size>
+		</image>
+		<image name ="textlist-game-logo">
+			<pos>0.7 0.1875</pos>
+			<maxSize>0.25 0.1</maxSize>
+		</image>
+		<badges name="textlist-badges">
+			<pos>0.7 0.26</pos>
+			<size>0.25 0.026</size>
+		</badges>
+		<text name="textlist-releasedate-label">
+			<visible>false</visible>
+		</text>
+		<datetime name="textlist-releasedate-data">
+			<visible>false</visible>
+		</datetime>
+		<text name="textlist-developer-label">
+			<visible>false</visible>
+		</text>
+		<text name="textlist-developer-data">
+			<visible>false</visible>
+		</text>
+		<text name="textlist-publisher-label">
+			<visible>false</visible>
+		</text>
+		<text name="textlist-publisher-data">
+			<visible>false</visible>
+		</text>
+		<text name="textlist-genre-label">
+			<visible>false</visible>
+		</text>
+		<text name="textlist-genre-data">
+			<visible>false</visible>
+		</text>
+		<text name="textlist-players-label">
+			<visible>false</visible>
+		</text>
+		<text name="textlist-players-data">
+			<visible>false</visible>
+		</text>
+		<text name="textlist-lastplayed-label">
+			<visible>false</visible>
+		</text>
+		<datetime name="textlist-lastplayed-data">
+			<visible>false</visible>
+		</datetime>
+		<text name="textlist-playcount-label">
+			<visible>false</visible>
+		</text>
+		<text name="textlist-playcount-data">
+			<visible>false</visible>
+		</text>
+		<rating name="textlist-rating">
+			<pos>0.7 0.8325</pos>
+			<size>0.25 0.05</size>
+		</rating>
+		
+		<image name ="textlist-media-background">
+			<visible>false</visible>
+		</image>
+		<text name="textlist-description">
+			<pos>0.7 0.38</pos>
+			<size>0.47 0.2</size>
+		</text>
+		<video name="textlist-video">
+			<pos>0.7 0.64</pos>
+			<maxSize>0.6 0.3</maxSize>
+			<videoCornerRadius>0.0075</videoCornerRadius>
+			<imageCornerRadius>0.0</imageCornerRadius>
+			<imageType>miximage</imageType>
+			<delay>3</delay>
+			<pillarboxes>false</pillarboxes>
+			<zIndex>5</zIndex>
+		</video>
+	</view>
+</theme>
