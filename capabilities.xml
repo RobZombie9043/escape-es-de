@@ -29,29 +29,29 @@
 	Color Schemes
 	///
 	-->
-	<colorScheme name="0_night">
-        <label>0 - Night</label>
-    </colorScheme>
 	<colorScheme name="1_dawn">
-        <label>1 - Dawn</label>
+        <label>Dawn</label>
     </colorScheme>
 	<colorScheme name="2_sunrise">
-        <label>2 - Sunrise</label>
+        <label>Sunrise</label>
     </colorScheme>
 	<colorScheme name="3_early_morning">
-        <label>3 - Early Morning</label>
+        <label>Early Morning</label>
     </colorScheme>
 	<colorScheme name="4_day">
-        <label>4 - Day</label>
+        <label>Day</label>
     </colorScheme>
 	<colorScheme name="5_golden_hour">
-        <label>5 - Golden Hour</label>
+        <label>Golden Hour</label>
     </colorScheme>
 	<colorScheme name="6_sunset">
-        <label>6 - Sunset</label>
+        <label>Sunset</label>
     </colorScheme>
 	<colorScheme name="7_dusk">
-        <label>7 - Dusk</label>
+        <label>Dusk</label>
+    </colorScheme>
+	<colorScheme name="0_night">
+        <label>Night</label>
     </colorScheme>
 
 	<!--
