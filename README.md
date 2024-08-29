@@ -47,8 +47,14 @@ A Firewatch inspired theme featuring imagery with changing time of day color hue
 ## **Acknowledgements**
 
 Theme inspired by and layout based on the Simple Life theme by Darren Carol - (https://github.com/DarrenCarol/Simple_Life)
+
 Artwork from Firewatch by Campo Santo - (https://www.firewatchgame.com)
 
 Lakeside backgrounds original artwork created by Louis Coyle - (https://louie.co.nz/25th_hour/) and video from Firstname (https://www.youtube.com/watch?v=aEtiZxBF8oA)
+
 Watchtower Distant backgrounds from MatrixRetoastet - https://app.box.com/s/63videvyw0fm93l9qhmj74z2jo4fvd3x and video created by myself.
+
 Watchtower Close-up background images from DanielDK100 (https://github.com/DanielDK100/Firewatch-Wallpaper-Engine) and video from Justin Engberg (https://www.youtube.com/watch?v=FdPzO8Vlp2U)
+
+Fonts - Verlag (https://www.dafontfree.co/download/verlag/)
+
