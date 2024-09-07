@@ -132,6 +132,7 @@ license:      	creative commons CC-BY-NC-SA
 			<pos>0 0</pos>
 			<cropSize>1 1</cropSize>
 			<fadeInTime>0</fadeInTime>
+			<audio>false</audio>
 			<zIndex>3</zIndex>
         </video>
 		<image name ="textlist-system-logo">
