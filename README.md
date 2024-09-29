@@ -4,11 +4,11 @@ A Firewatch inspired theme featuring imagery with changing time of day color hue
 ## **Preview**
 | System View - Watchtower Distant | System View - Lakeside | System View - Watchtower Close-up|
 |----|----|----|
-| ![Watchtower Distant](https://github.com/user-attachments/assets/49b53fd9-c5e0-4991-aafd-5afebce82e1d) | ![Lakeside](https://github.com/user-attachments/assets/12333f0c-5cb2-427d-82c0-1a9547f0c497) | ![Watchtower Close](https://github.com/user-attachments/assets/9458ad5c-73b9-4e75-b416-2785c6cb25cb) |
+| ![Screenshot_20240929-232320](https://github.com/user-attachments/assets/d54028b4-9f62-489a-89ec-c594469885d1) | ![Screenshot_20240929-231836](https://github.com/user-attachments/assets/2b2102c2-4315-4c37-925c-944620af0f83) | ![Screenshot_20240929-231910](https://github.com/user-attachments/assets/9b772197-abb2-423d-a55c-1b278e6de137) |
 
 | Gamelist - Watchtower Distant | Gamelist - Lakeside | Gamelist - Watchtower Close-up |
 |----|----|----|
-| [![Screenshot_20240821-232850](https://github.com/user-attachments/assets/b395da77-13e2-43f9-bb5a-cb30805fe502)](https://youtu.be/JlIpcWNn5FM) | [![Screenshot_20240821-232901](https://github.com/user-attachments/assets/4f788127-0f2f-4d6e-92c9-18e63198aa97)](https://youtu.be/pFctB3Vy0MQ) | [![Screenshot_20240821-232912](https://github.com/user-attachments/assets/7cc42afb-db32-48d8-932b-a0b58527bb64)](https://youtu.be/RjYVJHkv8vQ) |
+| ![Screenshot_20240929-231726](https://github.com/user-attachments/assets/72bb288d-bd92-45bd-b3ea-29756509713d) | ![Screenshot_20240929-231826](https://github.com/user-attachments/assets/2d80f9ea-f578-48ec-8b6d-3a175aafe951) | ![Screenshot_20240929-231922](https://github.com/user-attachments/assets/57c8c82c-52ca-4fea-8cf8-c3231a0829c4) |
 
 ## **Configuration Options**
 
