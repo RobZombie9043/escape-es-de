@@ -252,18 +252,18 @@
             <langLabelDeveloper>Utvecklare</langLabelDeveloper>
             <langLabelPublisher>Utgivare</langLabelPublisher>
             <langLabelManufacturer>Tillverkare</langLabelManufacturer>
-            <langLabelHardwareType>Typ</langLabelHardwareType>
+            <langLabelHardwareType>Hårdvarutyp</langLabelHardwareType>
             <langLabelGames>Spel</langLabelGames>
             <langLabelFavorites>Favoriter</langLabelFavorites>
             <langLabelLastPlay>Senast spelat</langLabelLastPlay>
-            <langLabelTimePlay>Spelade gånger</langLabelTimePlay>
+            <langLabelTimePlay>Speltillfällen</langLabelTimePlay>
             <langLabelSysName>Systemnamn</langLabelSysName>
-            <langLabelCompleted>Avslutad</langLabelCompleted>
+            <langLabelCompleted>Klarat</langLabelCompleted>
             <langLabelChild>Barnsäkert</langLabelChild>
             <langLabelContain>Innehåller</langLabelContain>
             <langLabelInclude>Inklusive</langLabelInclude>
             <langLabelEmulator>Emulator</langLabelEmulator>
-            <langLabelSystemSelect>System Välj</langLabelSystemSelect>
+            <langLabelSystemSelect>Välj System</langLabelSystemSelect>
             <langUnknown>Okänd</langUnknown>
         </variables>
     </language>
