@@ -9,6 +9,7 @@ license:      	creative commons CC-BY-NC-SA
 	<include>./_inc/systems/metadata-global/_default.xml</include>
 	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
 	<include>./colors.xml</include>
+	<include>./languages.xml</include>
 
 	<variables>
 		<spacerImage>./_inc/images/space.png</spacerImage>
@@ -27,8 +28,8 @@ license:      	creative commons CC-BY-NC-SA
 		<helpsystem name="help">
 			<origin>0.5 0</origin>
 			<pos>0.5 0.925</pos>
-			<fontSize>0.026</fontSize><!-- 28 -->
-			<fontSizeDimmed>0.026</fontSizeDimmed><!-- 28 -->
+			<fontSize>0.026</fontSize>
+			<fontSizeDimmed>0.026</fontSizeDimmed>
 			<fontPath>${verlagBook}</fontPath>
 			<letterCase>capitalize</letterCase>
 			<iconColor>ffffff</iconColor>
@@ -213,7 +214,7 @@ license:      	creative commons CC-BY-NC-SA
 			<pos>0.44 0.3175</pos>
 			<size>0.115 0.09</size>
 			<horizontalAlignment>left</horizontalAlignment>
-			<text>Release Date:</text>
+			<text>${langLabelReleasedate}</text>
 			<metadataElement>true</metadataElement>
 			<fontPath>${verlagBook}</fontPath>
 			<fontSize>${gamelistMetadataFontSize}</fontSize>
@@ -236,7 +237,7 @@ license:      	creative commons CC-BY-NC-SA
 			<pos>0.44 0.3925</pos>
 			<size>0.115 0.09</size>
 			<horizontalAlignment>left</horizontalAlignment>
-			<text>Developer:</text>
+			<text>${langLabelDeveloper}</text>
 			<metadataElement>true</metadataElement>
 			<fontPath>${verlagBook}</fontPath>
 			<fontSize>${gamelistMetadataFontSize}</fontSize>
@@ -259,7 +260,7 @@ license:      	creative commons CC-BY-NC-SA
 			<pos>0.44 0.4675</pos>
 			<size>0.115 0.09</size>
 			<horizontalAlignment>left</horizontalAlignment>
-			<text>Publisher:</text>
+			<text>${langLabelPublisher}</text>
 			<metadataElement>true</metadataElement>
 			<fontPath>${verlagBook}</fontPath>
 			<fontSize>${gamelistMetadataFontSize}</fontSize>
@@ -282,7 +283,7 @@ license:      	creative commons CC-BY-NC-SA
 			<pos>0.44 0.5425</pos>
 			<size>0.115 0.09</size>
 			<horizontalAlignment>left</horizontalAlignment>
-			<text>Genre:</text>
+			<text>${langLabelGenre}</text>
 			<metadataElement>true</metadataElement>
 			<fontPath>${verlagBook}</fontPath>
 			<fontSize>${gamelistMetadataFontSize}</fontSize>
@@ -305,7 +306,7 @@ license:      	creative commons CC-BY-NC-SA
 			<pos>0.44 0.6175</pos>
 			<size>0.115 0.09</size>
 			<horizontalAlignment>left</horizontalAlignment>
-			<text>Players:</text>
+			<text>${langLabelPlayers}</text>
 			<metadataElement>true</metadataElement>
 			<fontPath>${verlagBook}</fontPath>
 			<fontSize>${gamelistMetadataFontSize}</fontSize>
@@ -328,7 +329,7 @@ license:      	creative commons CC-BY-NC-SA
 			<pos>0.44 0.6925</pos>
 			<size>0.115 0.09</size>
 			<horizontalAlignment>left</horizontalAlignment>
-			<text>Last Played:</text>
+			<text>${langLabelLastPlay}</text>
 			<metadataElement>true</metadataElement>
 			<fontPath>${verlagBook}</fontPath>
 			<fontSize>${gamelistMetadataFontSize}</fontSize>
@@ -351,7 +352,7 @@ license:      	creative commons CC-BY-NC-SA
 			<pos>0.44 0.7675</pos>
 			<size>0.115 0.09</size>
 			<horizontalAlignment>left</horizontalAlignment>
-			<text>Times Played:</text>
+			<text>${langLabelTimePlay}</text>
 			<metadataElement>true</metadataElement>
 			<fontPath>${verlagBook}</fontPath>
 			<fontSize>${gamelistMetadataFontSize}</fontSize>
@@ -445,25 +446,25 @@ license:      	creative commons CC-BY-NC-SA
 	<fontSize name="small">
 		<variables>
 			<systemGameCountFontSize>0.030</systemGameCountFontSize>
-			<gamelistTextlistFontSize>0.026</gamelistTextlistFontSize>
+			<gamelistTextlistFontSize>0.028</gamelistTextlistFontSize>
 			<gamelistMetadataFontSize>0.026</gamelistMetadataFontSize>
-			<gamelistDescriptionFontSize>0.026</gamelistDescriptionFontSize>
+			<gamelistDescriptionFontSize>0.028</gamelistDescriptionFontSize>
 		</variables>
 	</fontSize>
 	<fontSize name="medium">
 		<variables>
 			<systemGameCountFontSize>0.032</systemGameCountFontSize>
 			<gamelistTextlistFontSize>0.030</gamelistTextlistFontSize>
-			<gamelistMetadataFontSize>0.030</gamelistMetadataFontSize>
+			<gamelistMetadataFontSize>0.028</gamelistMetadataFontSize>
 			<gamelistDescriptionFontSize>0.030</gamelistDescriptionFontSize>
 		</variables>
 	</fontSize>
 	<fontSize name="large">
 		<variables>
 			<systemGameCountFontSize>0.034</systemGameCountFontSize>
-			<gamelistTextlistFontSize>0.034</gamelistTextlistFontSize>
-			<gamelistMetadataFontSize>0.034</gamelistMetadataFontSize>
-			<gamelistDescriptionFontSize>0.034</gamelistDescriptionFontSize>
+			<gamelistTextlistFontSize>0.032</gamelistTextlistFontSize>
+			<gamelistMetadataFontSize>0.030</gamelistMetadataFontSize>
+			<gamelistDescriptionFontSize>0.032</gamelistDescriptionFontSize>
 		</variables>
 	</fontSize>
 	
