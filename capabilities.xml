@@ -9,18 +9,19 @@
 	-->
 	<language>en_US</language>
     <language>en_GB</language>
-    <!-- <language>de_DE</language> -->
+    <language>ca_ES</language>
+	<language>de_DE</language>
 	<language>es_ES</language>
 	<language>fr_FR</language>
     <language>it_IT</language>
-	<!-- <language>nl_NL</language> -->
+	<language>nl_NL</language>
 	<language>pl_PL</language>
     <language>pt_BR</language>
     <language>ro_RO</language>
 	<language>ru_RU</language>
     <language>sv_SE</language>
 	<language>ja_JP</language>
-	<!-- <language>ko_KR</language> -->
+	<language>ko_KR</language>
 	<language>zh_CN</language>
    
 	<!--
@@ -114,6 +115,14 @@
 	</variant>
 	<variant name="watchtower_closeup">
 		<label>Watchtower Close-Up</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="retro_asgard">
+		<label>Retro Asgard</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="monado">
+		<label>Monado</label>
 		<selectable>true</selectable>
 	</variant>
 	
