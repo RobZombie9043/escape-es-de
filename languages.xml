@@ -27,7 +27,7 @@
         <langLabelFavorites>Favourites</langLabelFavorites>
         </variables>
     </language>
-    <!-- <language name="de_DE">
+    <language name="de_DE">
         <variables>
             <langLabelRating>Bewertungen</langLabelRating>
             <langLabelReleasedate>Veröffentlichungsdatum</langLabelReleasedate>
@@ -50,7 +50,7 @@
             <langLabelSystemSelect>Systemauswahl</langLabelSystemSelect>
             <langUnknown>Unbekannt</langUnknown>
         </variables>
-    </language> -->
+    </language>
     <language name="es_ES">
         <variables>
             <langLabelRating>Valoracion</langLabelRating>
@@ -123,7 +123,7 @@
             <langUnknown>Sconosciuto</langUnknown>
         </variables>
     </language>
-    <!-- <language name="nl_NL">
+    <language name="nl_NL">
         <variables>
             <langLabelRating>Beoordeling</langLabelRating>
             <langLabelReleasedate>Releasedatum</langLabelReleasedate>
@@ -146,7 +146,7 @@
             <langLabelSystemSelect>Systeem selecteren</langLabelSystemSelect>
             <langUnknown>Onbekend</langUnknown>
         </variables>
-    </language> -->
+    </language>
     <language name="pl_PL">
         <variables>
             <langLabelRating>Ocena</langLabelRating>
@@ -291,7 +291,7 @@
             <langUnknown>未知</langUnknown>
         </variables>
     </language>
-    <!-- <language name="ko_KR">
+    <language name="ko_KR">
         <variables>
             <langLabelRating>평가</langLabelRating>
             <langLabelReleasedate>출시일</langLabelReleasedate>
@@ -314,7 +314,7 @@
             <langLabelSystemSelect>시스템 선택</langLabelSystemSelect>
             <langUnknown>알려지지 않은</langUnknown>
         </variables>
-    </language> -->
+    </language>
     <language name="zh_CN">
         <variables>
             <langLabelRating>评价</langLabelRating>
