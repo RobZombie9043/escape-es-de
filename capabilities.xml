@@ -117,11 +117,11 @@
 		<label>Watchtower Close-Up</label>
 		<selectable>true</selectable>
 	</variant>
-	<variant name="retro_asgard">
+	<!-- <variant name="retro_asgard">
 		<label>Retro Asgard</label>
 		<selectable>true</selectable>
 	</variant>
-	<!-- <variant name="monado">
+	<variant name="monado">
 		<label>Monado</label>
 		<selectable>true</selectable>
 	</variant> -->
