@@ -40,6 +40,14 @@ license:      	creative commons CC-BY-NC-SA
 			<iconColorDimmed>cccccc</iconColorDimmed>
 			<opacityDimmed>1.0</opacityDimmed>
 		</helpsystem>
+		<systemstatus name="system-status">
+			<fontPath>${verlagBook}</fontPath>
+			<height>${systemInfoFontSize}</height>
+		</systemstatus>
+		<clock name="clock">
+			<fontPath>${verlagBook}</fontPath>
+			<fontSize>${systemInfoFontSize}</fontSize>
+		</clock>
 	</view>
 	<view name="system">
 		<image name="system-background">
@@ -115,6 +123,13 @@ license:      	creative commons CC-BY-NC-SA
 			</image>
         </view>
     </variant>
+	<!-- <variant name="monado">
+        <view name="system">
+            <image name="system-background">
+				<path>./_inc/images/Monado/${backgroundPath}</path>
+			</image>
+        </view>
+    </variant> -->
 	
 	<!--
 	///
@@ -442,6 +457,16 @@ license:      	creative commons CC-BY-NC-SA
 			</video>
         </view>
     </variant>
+	<!-- <variant name="monado">
+        <view name="gamelist">
+			<image name="gamelist-background">
+				<path>./_inc/images/Monado/${videoBackgroundImagePath}</path>
+			</image>
+			<video name="gamelist-background-animated">
+				<path>./_inc/images/Monado/${videoBackgroundPath}</path>
+			</video>
+        </view>
+    </variant> -->
 
 	<fontSize name="small">
 		<variables>
@@ -449,6 +474,7 @@ license:      	creative commons CC-BY-NC-SA
 			<gamelistTextlistFontSize>0.028</gamelistTextlistFontSize>
 			<gamelistMetadataFontSize>0.026</gamelistMetadataFontSize>
 			<gamelistDescriptionFontSize>0.028</gamelistDescriptionFontSize>
+			<systemInfoFontSize>0.028</systemInfoFontSize>
 		</variables>
 	</fontSize>
 	<fontSize name="medium">
@@ -457,6 +483,7 @@ license:      	creative commons CC-BY-NC-SA
 			<gamelistTextlistFontSize>0.030</gamelistTextlistFontSize>
 			<gamelistMetadataFontSize>0.028</gamelistMetadataFontSize>
 			<gamelistDescriptionFontSize>0.030</gamelistDescriptionFontSize>
+			<systemInfoFontSize>0.030</systemInfoFontSize>
 		</variables>
 	</fontSize>
 	<fontSize name="large">
@@ -465,6 +492,7 @@ license:      	creative commons CC-BY-NC-SA
 			<gamelistTextlistFontSize>0.032</gamelistTextlistFontSize>
 			<gamelistMetadataFontSize>0.030</gamelistMetadataFontSize>
 			<gamelistDescriptionFontSize>0.032</gamelistDescriptionFontSize>
+			<systemInfoFontSize>0.032</systemInfoFontSize>
 		</variables>
 	</fontSize>
 	
