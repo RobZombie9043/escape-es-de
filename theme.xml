@@ -123,13 +123,13 @@ license:      	creative commons CC-BY-NC-SA
 			</image>
         </view>
     </variant>
-	<!-- <variant name="monado">
+	<variant name="monado">
         <view name="system">
             <image name="system-background">
 				<path>./_inc/images/Monado/${backgroundPath}</path>
 			</image>
         </view>
-    </variant> -->
+    </variant>
 	
 	<!--
 	///
@@ -457,7 +457,7 @@ license:      	creative commons CC-BY-NC-SA
 			</video>
         </view>
     </variant>
-	<!-- <variant name="monado">
+	<variant name="monado">
         <view name="gamelist">
 			<image name="gamelist-background">
 				<path>./_inc/images/Monado/${videoBackgroundImagePath}</path>
@@ -466,7 +466,7 @@ license:      	creative commons CC-BY-NC-SA
 				<path>./_inc/images/Monado/${videoBackgroundPath}</path>
 			</video>
         </view>
-    </variant> -->
+    </variant>
 
 	<fontSize name="small">
 		<variables>

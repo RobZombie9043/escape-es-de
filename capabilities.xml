@@ -118,5 +118,9 @@
 		<label>Watchtower Close-Up</label>
 		<selectable>true</selectable>
 	</variant>
+	<variant name="monado">
+		<label>Monado</label>
+		<selectable>true</selectable>
+	</variant>
 	
 </themeCapabilities>
