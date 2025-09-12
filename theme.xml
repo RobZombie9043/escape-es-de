@@ -102,28 +102,28 @@ license:      	creative commons CC-BY-NC-SA
 		</text>
 	</view>
 	
-	<variant name="watchtower_distant">
+	<variant name="watchtower_distant, watchtower_distant_still">
         <view name="system">
             <image name="system-background">
 				<path>./_inc/images/Watchtower Distant/${backgroundPath}</path>
 			</image>
         </view>
     </variant>
-	<variant name="lakeside">
+	<variant name="lakeside, lakeside_still">
         <view name="system">
             <image name="system-background">
 				<path>./_inc/images/Lake/${backgroundPath}</path>
 			</image>
         </view>
     </variant>
-	<variant name="watchtower_closeup">
+	<variant name="watchtower_closeup, watchtower_closeup_still">
         <view name="system">
             <image name="system-background">
 				<path>./_inc/images/Watchtower Close-up/${backgroundPath}</path>
 			</image>
         </view>
     </variant>
-	<variant name="monado">
+	<variant name="monado, monado_still">
         <view name="system">
             <image name="system-background">
 				<path>./_inc/images/Monado/${backgroundPath}</path>
@@ -437,6 +437,19 @@ license:      	creative commons CC-BY-NC-SA
 			</video>
         </view>
     </variant>
+	<variant name="watchtower_distant_still">
+        <view name="gamelist">
+            <image name="gamelist-background">
+				<path>./_inc/images/Watchtower Distant/${backgroundPath}</path>
+			</image>
+			<video name="gamelist-background-animated">
+				<path>./_inc/images/Watchtower Distant/${videoBackgroundPath}</path>
+				<visible>false</visible>
+			</video>
+        </view>
+    </variant>
+
+	
 	<variant name="lakeside">
         <view name="gamelist">
             <image name="gamelist-background">
@@ -447,6 +460,18 @@ license:      	creative commons CC-BY-NC-SA
 			</video>
         </view>
     </variant>
+	<variant name="lakeside_still">
+        <view name="gamelist">
+			<image name="gamelist-background">
+				<path>./_inc/images/Lake/${backgroundPath}</path>
+			</image>
+			<video name="gamelist-background-animated">
+				<path>./_inc/images/Lake/${videoBackgroundPath}</path>
+				<visible>false</visible>
+			</video>
+        </view>
+    </variant>
+	
 	<variant name="watchtower_closeup">
         <view name="gamelist">
             <image name="gamelist-background">
@@ -457,6 +482,18 @@ license:      	creative commons CC-BY-NC-SA
 			</video>
         </view>
     </variant>
+	<variant name="watchtower_closeup_still">
+        <view name="gamelist">
+			 <image name="gamelist-background">
+				<path>./_inc/images/Watchtower Close-up/${backgroundPath}</path>
+			</image>
+			<video name="gamelist-background-animated">
+				<path>./_inc/images/Watchtower Close-up/${videoBackgroundPath}</path>
+				<visible>false</visible>
+			</video>
+        </view>
+    </variant>
+	
 	<variant name="monado">
         <view name="gamelist">
 			<image name="gamelist-background">
@@ -464,6 +501,17 @@ license:      	creative commons CC-BY-NC-SA
 			</image>
 			<video name="gamelist-background-animated">
 				<path>./_inc/images/Monado/${videoBackgroundPath}</path>
+			</video>
+        </view>
+    </variant>
+	<variant name="monado_still">
+        <view name="gamelist">
+			<image name="gamelist-background">
+				<path>./_inc/images/Monado/${backgroundPath}</path>
+			</image>
+			<video name="gamelist-background-animated">
+				<path>./_inc/images/Monado/${videoBackgroundPath}</path>
+				<visible>false</visible>
 			</video>
         </view>
     </variant>

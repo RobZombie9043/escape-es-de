@@ -107,19 +107,35 @@
 	///
 	-->
 	<variant name="watchtower_distant">
-		<label>Watchtower Distant</label>
+		<label>[Animated] Watchtower Distant</label>
 		<selectable>true</selectable>
 	</variant>
 	<variant name="lakeside">
-		<label>Lakeside</label>
+		<label>[Animated] Lakeside</label>
 		<selectable>true</selectable>
 	</variant>
 	<variant name="watchtower_closeup">
-		<label>Watchtower Close-Up</label>
+		<label>[Animated] Watchtower Close-Up</label>
 		<selectable>true</selectable>
 	</variant>
 	<variant name="monado">
-		<label>Monado</label>
+		<label>[Animated] Monado</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="watchtower_distant_still">
+		<label>[Still] Watchtower Distant</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="lakeside_still">
+		<label>[Still] Lakeside</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="watchtower_closeup_still">
+		<label>[Still] Watchtower Close-Up</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="monado_still">
+		<label>[Still] Monado</label>
 		<selectable>true</selectable>
 	</variant>
 	
