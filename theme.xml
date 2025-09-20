@@ -130,6 +130,13 @@ license:      	creative commons CC-BY-NC-SA
 			</image>
         </view>
     </variant>
+	<variant name="outset_island, outset_island_still">
+        <view name="system">
+            <image name="system-background">
+				<path>./_inc/images/Outset Island/${backgroundPath}</path>
+			</image>
+        </view>
+    </variant>
 	
 	<!--
 	///
@@ -511,6 +518,28 @@ license:      	creative commons CC-BY-NC-SA
 			</image>
 			<video name="gamelist-background-animated">
 				<path>./_inc/images/Monado/${videoBackgroundPath}</path>
+				<visible>false</visible>
+			</video>
+        </view>
+    </variant>
+	
+	<variant name="outset_island">
+        <view name="gamelist">
+			<image name="gamelist-background">
+				<path>./_inc/images/Outset Island/${videoBackgroundImagePath}</path>
+			</image>
+			<video name="gamelist-background-animated">
+				<path>./_inc/images/Outset Island/${videoBackgroundPath}</path>
+			</video>
+        </view>
+    </variant>
+	<variant name="outset_island_still">
+        <view name="gamelist">
+			<image name="gamelist-background">
+				<path>./_inc/images/Outset Island/${backgroundPath}</path>
+			</image>
+			<video name="gamelist-background-animated">
+				<path>./_inc/images/Outset Island/${videoBackgroundPath}</path>
 				<visible>false</visible>
 			</video>
         </view>

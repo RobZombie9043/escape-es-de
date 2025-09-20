@@ -122,6 +122,10 @@
 		<label>[Animated] Monado</label>
 		<selectable>true</selectable>
 	</variant>
+	<variant name="outset_island">
+		<label>[Animated] Outset Island</label>
+		<selectable>true</selectable>
+	</variant>
 	<variant name="watchtower_distant_still">
 		<label>[Still] Watchtower Distant</label>
 		<selectable>true</selectable>
@@ -136,6 +140,10 @@
 	</variant>
 	<variant name="monado_still">
 		<label>[Still] Monado</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="outset_island_still">
+		<label>[Still] Outset Island</label>
 		<selectable>true</selectable>
 	</variant>
 	
