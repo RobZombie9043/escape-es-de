@@ -65,10 +65,10 @@
 		<datetime name="textlist-lastplayed-data">
 			<visible>false</visible>
 		</datetime>
-		<text name="textlist-playcount-label">
+		<text name="textlist-playtime-label">
 			<visible>false</visible>
 		</text>
-		<text name="textlist-playcount-data">
+		<text name="textlist-playtime-data">
 			<visible>false</visible>
 		</text>
 		<rating name="textlist-rating">

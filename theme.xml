@@ -351,7 +351,7 @@ license:      	creative commons CC-BY-NC-SA
 			<pos>0.44 0.6925</pos>
 			<size>0.115 0.09</size>
 			<horizontalAlignment>left</horizontalAlignment>
-			<text>${langLabelLastPlay}</text>
+			<text>${langLabelLastPlayed}</text>
 			<metadataElement>true</metadataElement>
 			<fontPath>${verlagBook}</fontPath>
 			<fontSize>${gamelistMetadataFontSize}</fontSize>
@@ -369,23 +369,24 @@ license:      	creative commons CC-BY-NC-SA
 			<letterCase>capitalize</letterCase>
 			<color>ffffff</color>
 		</datetime>
-		<text name="textlist-playcount-label">
+		<text name="textlist-playtime-label">
 			<origin>1 0.5</origin>
 			<pos>0.44 0.7675</pos>
 			<size>0.115 0.09</size>
 			<horizontalAlignment>left</horizontalAlignment>
-			<text>${langLabelTimePlay}</text>
+			<text>${langLabelPlayTime}</text>
 			<metadataElement>true</metadataElement>
 			<fontPath>${verlagBook}</fontPath>
 			<fontSize>${gamelistMetadataFontSize}</fontSize>
 			<lineSpacing>1.1</lineSpacing>
 			<color>ffffff</color>
 		</text>
-		<text name="textlist-playcount-data">
+		<text name="textlist-playtime-data">
 			<origin>0 0.5</origin>
 			<pos>0.44 0.7675</pos>
 			<size>0.135 0.09</size>
-			<metadata>playcount</metadata>
+			<metadata>playtime</metadata>
+			<defaultValue>-</defaultValue>
 			<fontPath>${verlagLight}</fontPath>
 			<fontSize>${gamelistMetadataFontSize}</fontSize>
 			<lineSpacing>1.1</lineSpacing>
